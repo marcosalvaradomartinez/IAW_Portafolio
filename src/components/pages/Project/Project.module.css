@@ -1,0 +1,39 @@
+.body{
+    background-color: rgb(138, 138, 138);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    height: 120vh;
+}
+
+.body h1{
+    width: 15%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+
+.gridProject{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cardProject{
+    width: 100%;
+    text-align: center;
+}
+
+.cardProject h2{
+    font-size: 30px;
+}
+
+.cardProject img{
+    width: 75%;
+}
+
+.cardProject:hover{
+    transform: scale(1.15);
+    transition: transform 1s ease;
+}
